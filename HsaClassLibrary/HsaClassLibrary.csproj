@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7C7F269C-6A62-4D16-9AA6-A2D88F31AE4F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HsaClassLibrary</RootNamespace>
+    <AssemblyName>HsaClassLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+    <DocumentationFile>bin\Debug\HsaClassLibrary.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="aCcordMath">
+      <HintPath>..\Reference\aCcordMath.dll</HintPath>
+    </Reference>
+    <Reference Include="alglibnet2">
+      <HintPath>..\Reference\alglibnet2.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\Reference\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Decomposition\IStopCondition.cs" />
+    <Compile Include="Decomposition\EmDecomposition_1.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Decomposition\EmDecomposition_2.cs" />
+    <Compile Include="Decomposition\IEmpiricalModeDecomposition.cs" />
+    <Compile Include="Helpers\MathHelper.cs" />
+    <Compile Include="Helpers\Singleton.cs" />
+    <Compile Include="HilbertHuangTransformAbstract.cs" />
+    <Compile Include="TimeSeries\qCasual.cs" />
+    <Compile Include="TimeSeries\qCorrel.cs" />
+    <Compile Include="TimeSeries\qData.cs" />
+    <Compile Include="TimeSeries\qMatrix.cs" />
+    <Compile Include="TimeSeries\qModel.cs" />
+    <Compile Include="TimeSeries\qModelArima.cs" />
+    <Compile Include="TimeSeries\qModelDif.cs" />
+    <Compile Include="TimeSeries\qModelExp.cs" />
+    <Compile Include="TimeSeries\qModelPol.cs" />
+    <Compile Include="TimeSeries\qModelScsr.cs" />
+    <Compile Include="TimeSeries\qMtrx.cs" />
+    <Compile Include="Transform\HilbertSpectrum.cs" />
+    <Compile Include="Transform\HilbertTransformFir.cs" />
+    <Compile Include="Transform\EnumHilbertTransform.cs" />
+    <Compile Include="Transform\ITransform.cs" />
+    <Compile Include="Transform\HilbertTransform.cs" />
+    <Compile Include="Helpers\ReadWriteHelper.cs" />
+    <Compile Include="Helpers\ReadWriteInterface.cs" />
+    <Compile Include="Decomposition\StopConditions.cs" />
+    <Compile Include="Decomposition\EmDecomposition.cs" />
+    <Compile Include="Decomposition\FindExt_tmp0.cs" />
+    <Compile Include="Helpers\HhtCreator.cs" />
+    <Compile Include="Decomposition\EnumInterpolation.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Decomposition\StopCondition.cs" />
+    <Compile Include="Decomposition\EnumStopCondition.cs" />
+    <Compile Include="Decomposition\EnumStopConditionSeparate.cs" />
+    <Compile Include="Transform\FourierSpectrum.cs" />
+    <Compile Include="TimeSeries\qModelFsg.cs" />
+    <Compile Include="Transform\FourierTransform.cs" />
+    <Compile Include="Transform\TransformHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\ClassDependencies1.dgml">
+      <Link>ClassDependencies1.dgml</Link>
+    </None>
+    <None Include="ClassDiagramDecomposition.cd" />
+    <None Include="ClassDiagramTransform.cd" />
+    <None Include="ClassDiagramTimeSeries.cd" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

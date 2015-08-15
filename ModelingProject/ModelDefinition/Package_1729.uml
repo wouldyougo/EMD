@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="241cc7dd-e996-402d-9d82-63cefdc16e76"
+  name="log4net"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="161775c8-9c51-45c9-a4ff-ac993161a335"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3Dlog4net"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="2d2f4ab2-eb19-4d59-bce7-6406c3954687"
+        name="ILog"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="d0cebae2-af88-4023-b436-2b87b2277f9e"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2Fz:%2FYandexDisk%2FProjects%2Flog4net-1.2.11%2Fbin%2Fnet%2F4.0%2Frelease%2Flog4net.dll Namespace%3Dlog4net Type%3DILog"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="062111b5-0009-4afd-a0c4-1327fd3cffed"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8066e3da-f85c-4884-8b9e-a1b531d51d3d">
+                <propertyInstance
+                  Id="c68f0bf2-e01b-4552-ac8f-26493b27acd0"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d229fc90-01b8-44d1-83a4-4faf099a8673">
+                <propertyInstance
+                  Id="262501a5-4bda-480c-b473-82a1d3b394a3"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="478034ac-b3de-411f-977e-480fd3eb527b">
+                <propertyInstance
+                  Id="d3729a44-9774-41d1-b69a-b1adef9f9a6e"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="94b8bb94-16e5-4b56-9f32-54f775719092">
+                <propertyInstance
+                  Id="8286ebfa-bd36-4386-86ad-68ab84ae0b2e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </Interface>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

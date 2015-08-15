@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" dslVersion="1.0.0.0" Id="9ed52573-b2fa-4601-8e1c-770250af8fce" name="Sequence1" linkedPackageId="c7564baa-9179-42c6-89a5-0cbf8b9c9745" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="1d4b705c-202a-4dbc-8790-d4dfe0b0351b">
+      <profileInstance Id="48e6341d-7fcb-4cdf-9a15-72ae2d0bded1" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="de7c7b55-8bf8-4927-8f84-e3644929c7de">
+      <profileInstance Id="85d7026f-9594-4858-aa3d-c17a0c47c088" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="3738bfdb-a776-4eab-ab0a-ffd7536d3da9">
+      <profileInstance Id="b4f49328-cd27-4e93-9d1a-4413db02393a" name="CSharpProfile">
+        <elementDefinition Id="5179f3cc-49d7-4125-aad5-179e01fa1653" />
+      </profileInstance>
+      <elementDefinition Id="96a68f02-b6f9-4074-9a62-3e7de8e598e6" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="889399db-18c3-499e-87fd-6b21f1b55297" name="Sequence1" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <elementDefinition Id="421ede9d-5e07-476d-8cb4-249e1c562335" />
+        <ownedAttributesInternal>
+          <property Id="08cd81ee-52a9-4b24-9fb8-57cdb2e9894e" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="37946c98-8770-43a0-a81a-7e12bc2ca142" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="535fef92-4723-4b22-a8b5-8dd5b24d82a7" LastKnownName="EmdAbstract" />
+            </type_NamedElement>
+          </property>
+          <property Id="1a404dc7-2ee7-47b6-9ac6-c4dd2e7e04a5" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2f111fa3-d8f3-4cb5-9542-8df5f4aac82b" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="7c71e499-d4a5-4ab4-aebe-3bbc0b84ee86" LastKnownName="Emd_0" />
+            </type_NamedElement>
+          </property>
+          <property Id="b9755ed0-7844-47ee-a4a4-4bb49ed10813" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="bb01c46b-1418-4265-8dce-361cda084531" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="23a339e4-c371-4233-8beb-01fadd1f5d33" LastKnownName="HhtCreator" />
+            </type_NamedElement>
+          </property>
+          <property Id="9d904067-d319-4ff9-a36b-8f759dc48c73" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b271fe16-9009-4008-9451-da476d7ef598" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="4fbcfb55-1ca8-42a5-80be-40bd332895df" LastKnownName="HilbertTransformInterface" />
+            </type_NamedElement>
+          </property>
+          <property Id="4b6555ec-7411-4925-b8fe-b6a7ac0fbe73" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="71fe9fb9-9706-43eb-85de-949c1c4a3a82" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="ec83770b-ca4c-467d-9903-b6ea771ed99d" LastKnownName="InterpolationInterface" />
+            </type_NamedElement>
+          </property>
+          <property Id="e82a424c-efe2-4791-ac04-077400aba64b" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f203b74a-6672-4ffa-90b1-ad2563087fa3" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="6eac10a6-1385-4f64-9c67-b607231dcfe3" LastKnownName="StopCriterionInterface" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="535fef92-4723-4b22-a8b5-8dd5b24d82a7" name="EmdAbstract" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject::EmdLibrary::EmdAbstract">
+        <elementDefinition Id="b763347a-ddd1-4ea7-9808-84792c8b49cd" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="7c71e499-d4a5-4ab4-aebe-3bbc0b84ee86" name="Emd_0" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject::EmdLibrary::Emd_0">
+        <elementDefinition Id="16b24087-6a31-4a46-ac23-664b0bb7c4bf" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="23a339e4-c371-4233-8beb-01fadd1f5d33" name="HhtCreator" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject::EmdLibrary::HhtCreator">
+        <elementDefinition Id="dcfea81b-9b5b-4031-b641-30edb32707f4" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="4fbcfb55-1ca8-42a5-80be-40bd332895df" name="HilbertTransformInterface" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject::EmdLibrary::HilbertTransformInterface">
+        <elementDefinition Id="4c09e3ae-765e-492e-be96-07bc42e0103c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="ec83770b-ca4c-467d-9903-b6ea771ed99d" name="InterpolationInterface" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject::EmdLibrary::InterpolationInterface">
+        <elementDefinition Id="265b556e-c3c7-4fbc-bb12-453f1f6c5e47" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="6eac10a6-1385-4f64-9c67-b607231dcfe3" name="StopCriterionInterface" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject::EmdLibrary::StopCriterionInterface">
+        <elementDefinition Id="5396cd57-f840-4f21-b71d-2be79887400d" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="c7564baa-9179-42c6-89a5-0cbf8b9c9745" name="ModelingProject">
+    <elementDefinition Id="0d9d2c7e-66ec-4edb-8a6a-740b0a431e68" />
+  </package>
+</SequenceDesignerModel>

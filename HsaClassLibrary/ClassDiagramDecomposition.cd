@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TimeSeries.qKritZix" Collapsed="true">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAQAAAAAIAAAAAAAAAAAAAAAADhIAQ=</HashCode>
+      <FileName>TimeSeries\qCasual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeSeries.qHist" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAIABCAABABgAAYBBAQAAAAAQCAAgQAQAEEAAAQ=</HashCode>
+      <FileName>TimeSeries\qCasual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeSeries.qACorr" Collapsed="true">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEAAAAAAAAAAAAAEAIQEQAAAAAAAAQAAAAACAAAAAAA=</HashCode>
+      <FileName>TimeSeries\qCorrel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeSeries.qModelACor" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAACAAAAAAEAAAEAAQAAAAAAAEAAAAAAAAAAU=</HashCode>
+      <FileName>TimeSeries\qCorrel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeSeries.qPCorr" Collapsed="true">
+    <Position X="0.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAgAAAAAQAAAAAAEAAAABA=</HashCode>
+      <FileName>TimeSeries\qCorrel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeSeries.qModelPCor" Collapsed="true">
+    <Position X="3.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAgEAAAEAAIAAAAAAAAAAAAEAAAAAU=</HashCode>
+      <FileName>TimeSeries\qCorrel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeSeries.qModelMCor" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAACAACAAAEAAAEAAAIgAAAAAAAAAAAAAAYAU=</HashCode>
+      <FileName>TimeSeries\qCorrel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeSeries.qData" Collapsed="true">
+    <Position X="3" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AECAgAgACAiBCAAAQIQASQAMAAAAHABIEgAAQACEQAA=</HashCode>
+      <FileName>TimeSeries\qData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeSeries.qMData" Collapsed="true">
+    <Position X="3" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgBMRAACMkCDKIYAUAQAAKAMAkABI4AAAARJBQEFg=</HashCode>
+      <FileName>TimeSeries\qMatrix.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeSeries.qModel" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAwgJFAAKAEBAAEpAQlAAAAAQABALEAAoAEdAnABHQ=</HashCode>
+      <FileName>TimeSeries\qModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeSeries.qModelArm" Collapsed="true">
+    <Position X="6" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEBCIZlAgDAgAAIkhBTCGAEoARQADIIkKoiABCBokwQ=</HashCode>
+      <FileName>TimeSeries\qModelArima.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeSeries.qModelDif" Collapsed="true">
+    <Position X="8.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGAiAABIACAAAAAAAIAAAAIAAAAAAAAAAoAABAAABgw=</HashCode>
+      <FileName>TimeSeries\qModelDif.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeSeries.qModelDis" Collapsed="true">
+    <Position X="8.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGAiAABIACAAAAAAAIAACAIAAAAAAAAAAoAABACABAQ=</HashCode>
+      <FileName>TimeSeries\qModelDif.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeSeries.qModelExp" Collapsed="true">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAACDABQBAAAgIAAAAAAUAUAAAAIEAAAACAAU=</HashCode>
+      <FileName>TimeSeries\qModelExp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeSeries.qModelPol" Collapsed="true">
+    <Position X="13.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAALAACCABABAAAAAAAAAAAAgQBAAAIAAAAAAAAQ=</HashCode>
+      <FileName>TimeSeries\qModelPol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeSeries.qTableSs" Collapsed="true">
+    <Position X="8.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABQAQAAAAAAAAAAAAAACAAEAAAI=</HashCode>
+      <FileName>TimeSeries\qModelScsr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeSeries.qModelSs" Collapsed="true">
+    <Position X="8.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACBABAACAhhABAEAIAAAAAEAABUAAAAKAAAAAAACQ=</HashCode>
+      <FileName>TimeSeries\qModelScsr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeSeries.GlobalMembersMtrx" Collapsed="true">
+    <Position X="0.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>TimeSeries\qMtrx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeSeries.TMatrix" Collapsed="true">
+    <Position X="3" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAECAAAGAAYBEAAIAAAEAIABAiAAAAAAAAADA=</HashCode>
+      <FileName>TimeSeries\qMtrx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeSeries.qModelFsg" Collapsed="true">
+    <Position X="13.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAABAAGAABABAAIAAQAIAEAAAQAAAAIAAAAAAAAQ=</HashCode>
+      <FileName>TimeSeries\qModelFsg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

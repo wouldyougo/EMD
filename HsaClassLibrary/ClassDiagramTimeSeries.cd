@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HsaClassLibrary.Transform.HilbertSpectrum" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAADAAAIAAQAAIAEAAAAQIAAAAAABAI=</HashCode>
+      <FileName>Transform\HilbertSpectrum.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HsaClassLibrary.Transform.HilbertTransform" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEACAACAAAAAAAAAAAAAAAAAAAAFA=</HashCode>
+      <FileName>Transform\HilbertTransform.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HsaClassLibrary.Transform.FourierTransform" Collapsed="true">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAACAAAgAAAAA=</HashCode>
+      <FileName>Transform\FourierTransform.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="HsaClassLibrary.Transform.EnumHilbertTransform" Collapsed="true">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAQAAAAACAYAAAAAAAMAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transform\EnumHilbertTransform.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
